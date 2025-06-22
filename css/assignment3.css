@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*global*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: lightblue;
+}
+
+p {
+  display: inline-block;
+  line-height: 1.5;
+  align-items: center;   
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin: 0.625em 0px;
+  border-radius: 2.5em;
+}
+
+.title h1 {
+  text-decoration: underline;
+  font-style:oblique;
+}
+
+/*main section*/
+.container {
+  width: 80%;
+  margin: 1.25em auto;
+  align-items: center;
+  text-align: center;
+}
+
+.convArea {
+  width: 60%;  
+  align-items:center;
+  padding: 2.5em;
+  background-color: yellow;
+  border-radius: 1.25em;
+  margin: auto;
+}
+
+.btn_convert {
+  background-color: greenyellow;
+  border-radius: 1.25em;
+  display: block;
+  margin: auto;
+}
+
+.scale {
+  display: block;
+}
+
+.result {
+  text-align: center;
+  border: black;
+  border-radius:1.25em;
+  background-color: yellow;
+}
