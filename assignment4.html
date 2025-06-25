@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/assignment4.css" rel="stylesheet">
+    <title>Convert Temperature Range</title>
+</head>
+<body>
+    <Div class="title">
+        <h1>Convert Temperature Range</h1>
+    </Div>
+    <div class="container">
+        <img src="./img/weatherImage.jpg" alt="weather image">
+        <h1>Convert Temperature</h1>
+
+        <div class="convArea">
+            
+            <form id="tempInfo" >
+				<div class="form-group">
+					<label for="startValue">Starting Value</label>
+					<input type="number" id="startValue" name="startValue" class="form-input">
+				</div>
+				<div class="form-group">
+					<label for="endValue">Ending Value</label>
+					<input id="endValue" type="number" name="endValue" class="form-input">
+				</div>	
+                <div class="form-group">
+					<label for="scale">°F or °C</label>
+					<input id="scale" type="text" name="scale" minlength="1" class="form-input">
+				</div>				
+            </form>
+            <br>
+            <button class="btn_convert" onclick="convertTemperatureRange()">Click here to <br>Convert Temperature</button>&nbsp;&nbsp;
+            <br>
+        </div>
+        <br>
+        <div class="resultArea">
+            <h2 id="title"></h2>
+            <p id="result"></p>
+        </div>
+       
+    <script src="./scripts/assignment4.js"></script>
+</body>
+</html>
